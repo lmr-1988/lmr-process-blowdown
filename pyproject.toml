@@ -1,0 +1,13 @@
+[project]
+name = "blowdown-v2"
+version = "0.1.0"
+description = "Blowdown performance evaluation system for Aker BP"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pandas>=2.0",
+    "openpyxl>=3.1",
+    "numpy>=1.24",
+    "scipy>=1.11",
+    "cognite-sdk>=7.0",
+]
